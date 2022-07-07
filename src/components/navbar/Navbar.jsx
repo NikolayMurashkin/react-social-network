@@ -8,7 +8,7 @@ const Navbar = () => {
                 <li><NavLink className={navData => navData.isActive ? classes.active : classes.link}
                              to='/Profile'>Profile</NavLink></li>
                 <li><NavLink className={navData => navData.isActive ? classes.active : classes.link}
-                             to='/Messages'>Messages</NavLink></li>
+                             to='/Dialogs'>Messages</NavLink></li>
                 <li><NavLink className={navData => navData.isActive ? classes.active : classes.link}
                              to='/News'>News</NavLink></li>
                 <li><NavLink className={navData => navData.isActive ? classes.active : classes.link}
